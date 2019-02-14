@@ -2,17 +2,25 @@ import java.util.ArrayList;
 
 public class Lab {
 	public static void main(String[] args) {
-		ArrayList<String> band = new ArrayList<String>();
-		band.add("Lindsey");
-	  	band.add("Mick");
-		band.add("Stevie");
-		band.add("Dave");
-		band.add("Christine");
-		band.add(band.remove(2));
-		band.set(0,band.get(4));
 
-		System.out.println(band);
+		ArrayList<Integer> nums = new ArrayList<Integer>();
+		nums.add(1);
+		nums.add(2);
+		nums.add(4);
+		nums.add(6);
+		nums.add(8);
+		nums.add(10);
+		nums.add(12);
+		
+		for(int i= 0; i < nums.size(); i++)
+			nums.remove(i); 
 
+		System.out.println(nums);
+		
+		
+		
+
+		
 	}
 }
 	
